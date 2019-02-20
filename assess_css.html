@@ -4,11 +4,29 @@
         <title>Assess the CSS</title>
         <style>
             table{
-                width: 30%;
-                border-collapse: collapse;
+                width: 50%;
             }
-            table, th, tr, td{
-                border: 1px solid black;
+            .properties {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 40%;
+            }
+
+            .properties td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            .properties tr:nth-child(even){background-color: #f2f2f2;}
+
+            .properties tr:hover {background-color: #ddd;}
+
+            .properties caption {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
             }
         </style>
 
@@ -29,9 +47,8 @@
             </nav>
         </header>
         <main>
-            <table>
+            <table class="properties">
                 <caption>Table 1: List of Styles</caption>
-                <tr><td>text-align:center;</td></tr>
                 <tr><td>height:150; </td></tr>
                 <tr><td>background:lightgray;</td></tr>
                 <tr><td>background:yellow; </td></tr>
@@ -54,35 +71,118 @@
                 <tr><td>text-align:center;</td></tr>
                 <tr><td>background:silver;</td></tr>
                 <tr><td>border:7px solid blue;</td></tr>
-                <tr><td>margin:5%;</td></tr>
-                <tr><td>text-align:center;</td></tr>
             </table>
             <br>
-            <table>
+            <table class="properties">
                 <caption>Properties and Values</caption>
                 <tr>
                     <th>Property</th>
                     <th>Value</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>text-align</td>
+                    <td>center</td>
                 </tr>
+                <tr>
+                    <td>height</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>lightgray</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>yellow</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>gold</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>75%</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>lightgreen</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>3px solid black</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>15 15</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>skyblue</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>10px double black;</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>red</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>10px solid black</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>orange</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>3px solid white</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>5px</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>center</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>right</td>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>silver</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>7px solid blue</td>
+                </tr>
+
             </table>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
         </main>
     </body>
-    
+
 </html>
