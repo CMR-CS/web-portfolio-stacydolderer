@@ -1,0 +1,74 @@
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+}
+
+body{
+    background-image:url("/images/space.jpg");
+}
+
+h1{
+    font-size: 3em;
+}
+
+main{
+    background-color: darkslateblue;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    border: 2px solid black;
+    clear: both;
+}
+main p {
+    padding: 20px;
+    border: 2px dashed white;
+    margin: 20px;
+}
+
+main > img{
+    margin: auto;
+    float: left;
+    padding: 30px 0 0 30px;
+}
+
+main p::first-letter{
+    font-size: 40px;
+    color: orangered;
+}
+main > article > img{
+    width: 400px;
+    float: right;
+    border: 1px solid;
+    box-shadow: 10px 10px black;
+}
+article
+
+/*navigation styles*/
+nav{
+    width: 80%;
+    margin: auto auto;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float :left;
+    margin-right: .5em;
+}
+nav ul li a{
+    padding: .25em 1em;
+    text-decoration: none;
+    background-color: darkslateblue;
+    color: white;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+}
+nav ul li a:hover, nav ul li a:focus{
+    color: darkslateblue;
+    background-color: azure;
+    font-weight: bold;
+}
+
