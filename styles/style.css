@@ -29,6 +29,7 @@ main{
 
 article{
     padding: 20px;
+    padding-bottom: 40px;
     border: 7px dotted white;
     margin-top: -0px;
     margin: 20px;
@@ -88,4 +89,8 @@ a{
     clear: left;
     padding: 12px 0;
 	margin: 0;
+}
+.album:hover{
+    height: 90px;
+    width: 90px;
 }
